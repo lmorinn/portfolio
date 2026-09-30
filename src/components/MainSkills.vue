@@ -11,7 +11,7 @@
       </div>
       <div>
         <ElIcon><Setting /></ElIcon>
-        <h2>webアプリケーション開発</h2>
+        <h2>アプリケーション開発</h2>
       </div>
     </div>
   </section>

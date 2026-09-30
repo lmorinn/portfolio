@@ -9,7 +9,7 @@
           rel="noopener noreferrer"
           aria-label="lmorinnのGitHubプロフィール"
         >
-          <FontAwesomeIcon :icon="['fab', 'github']" size="2x" color="#1aad41" />
+          <FontAwesomeIcon :icon="['fab', 'github']" size="2x" color="#f8f9fa" />
         </a>
       </div>
     </div>

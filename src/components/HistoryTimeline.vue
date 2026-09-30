@@ -18,8 +18,6 @@
 const activities = [
   { content: 'プログラミングの学習を開始', timestamp: '2019年6月', image: '/img/history_1.png' },
   { content: 'ITパスポート 合格', timestamp: '2019年12月', image: '/img/develop.jpg' },
-  { content: 'ポートフォリオの作成', timestamp: '2019年12月', image: '/img/history_3.png' },
-  { content: 'ポートフォリオv2作成', timestamp: '2020年4月', image: '/img/history_6.png' },
   {
     content: 'AtCoder Algorithm Rating400到達',
     timestamp: '2020年6月',
@@ -29,6 +27,16 @@ const activities = [
   {
     content: 'AtCoder Algorithm Rating800到達',
     timestamp: '2023年12月',
+    image: '/img/develop.jpg',
+  },
+  {
+    content: 'AtCoder Algorithm Rating1200到達',
+    timestamp: '2024年12月',
+    image: '/img/develop.jpg',
+  },
+  {
+    content: '会津大学イノベーション・創業教育プログラム シリコンバレーインターンシッププログラム 参加',
+    timestamp: '2025年2月',
     image: '/img/develop.jpg',
   },
 ]

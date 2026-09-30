@@ -16,7 +16,6 @@
       <ElIcon><ArrowRight /></ElIcon>
     </RouterLink>
     <HomeActivity />
-    <HomeBlog />
   </main>
 </template>
 
@@ -25,5 +24,4 @@ import { ArrowDown, ArrowRight } from '@element-plus/icons-vue'
 import HomeAbout from '@/components/HomeAbout.vue'
 import HomeWorks from '@/components/HomeWorks.vue'
 import HomeActivity from '@/components/HomeActivity.vue'
-import HomeBlog from '@/components/HomeBlog.vue'
 </script>

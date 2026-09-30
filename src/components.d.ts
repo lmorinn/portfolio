@@ -29,7 +29,6 @@ declare module 'vue' {
     HistoryTimeline: typeof import('./components/HistoryTimeline.vue')['default']
     HomeAbout: typeof import('./components/HomeAbout.vue')['default']
     HomeActivity: typeof import('./components/HomeActivity.vue')['default']
-    HomeBlog: typeof import('./components/HomeBlog.vue')['default']
     HomeWorks: typeof import('./components/HomeWorks.vue')['default']
     MainSkills: typeof import('./components/MainSkills.vue')['default']
     ProfileCard: typeof import('./components/ProfileCard.vue')['default']

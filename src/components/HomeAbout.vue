@@ -17,7 +17,7 @@
         </div>
       </div>
       <div class="icon-parent">
-        <p>webアプリケーション開発</p>
+        <p>アプリケーション開発</p>
         <div class="icon-block">
           <ElIcon><Setting /></ElIcon>
         </div>
