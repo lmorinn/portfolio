@@ -1,0 +1,174 @@
+html,
+body {
+  font-family: 'Noto Sans JP', メイリオ, Osaka, Arial, Verdana, 'ＭＳ Ｐゴシック', sans-serif;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  background-color: #f8f9fa;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+#app {
+  min-height: 100vh;
+  margin-top: 0;
+  color: #2c3e50;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#nav {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.navmenu {
+  margin: 0 5px;
+  padding: 20px 35px;
+  border-bottom: solid 2px #22223f;
+  background-color: rgb(248 249 250 / 73%);
+  color: #22223f;
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 200ms ease;
+}
+
+.navmenu:hover,
+.navmenu:focus-visible {
+  border-bottom-color: #030065;
+  background-color: #06006d;
+  box-shadow: 1px 3px 5px rgb(0 0 0 / 20%);
+  color: #e2e2e2;
+  outline: none;
+}
+
+.page-fade-enter-active,
+.page-fade-leave-active {
+  transition: opacity 0.3s;
+}
+
+.page-fade-enter-from,
+.page-fade-leave-to {
+  opacity: 0;
+}
+
+.block {
+  text-align: center;
+}
+
+.title {
+  margin: 40px auto 50px;
+  padding: 10px;
+  font-family: brandon-grotesque, sans-serif;
+  font-size: 40px;
+}
+
+.banner p {
+  color: #272727;
+  font-size: 20px;
+}
+
+.banner .el-icon {
+  color: #c1c1c1;
+  font-size: 27px;
+}
+
+.top-block {
+  width: 100%;
+  margin: 30px auto 50px;
+  padding-top: 25px;
+  border-top: solid 1px #e6e6e6;
+}
+
+.index-text {
+  width: 30%;
+  margin-left: 10%;
+  font-family: bilo, sans-serif;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: left;
+}
+
+.jump {
+  display: flex;
+  width: 300px;
+  justify-content: center;
+  margin: 60px auto;
+  padding: 20px 0;
+  border-radius: 50px;
+  background-color: #212121;
+  color: #fff;
+  font-family: brandon-grotesque, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-decoration: none;
+  transition: all 200ms ease;
+}
+
+.jump:hover,
+.jump:focus-visible {
+  background-color: #06006d;
+  letter-spacing: 0.2em;
+  outline: none;
+}
+
+.jump .el-icon {
+  align-self: center;
+  margin-left: 3px;
+}
+
+.about-block {
+  width: 60%;
+  margin: 110px auto 40px;
+  border: solid 2px #ececec;
+  background-color: #f8f9fa;
+}
+
+.section-text {
+  width: 80%;
+  margin: 50px auto;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 600px) {
+  .navmenu {
+    padding: 16px 20px;
+  }
+
+  .banner {
+    padding: 30px 0;
+  }
+
+  .index-text {
+    width: 50%;
+    margin: 50px 0 50px 5%;
+    font-size: 50px;
+  }
+
+  .jump {
+    width: 80%;
+    margin: 40px auto 30px;
+    padding: 16px 10px;
+    font-size: 18px;
+  }
+
+  .about-block {
+    width: 95%;
+  }
+}
